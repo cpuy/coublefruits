@@ -1,3 +1,18 @@
+.Head {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+.HeadLogo {
+    width: 30em;
+    height: auto;
+
+    display: block;
+    margin: auto;
+}
+
 .what {
     width: 800px;
     max-width: 80%;
