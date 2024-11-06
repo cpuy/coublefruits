@@ -1,73 +1,73 @@
 @font-face {
-    font-family: 'AmaticSC';
-    src: url('../fonts/AmaticSC-Bold.ttf');
+  font-family: "AmaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf");
 }
 
 html {
-    --yellow: #f4d500;
-    --green: #326935;
-    --orange: #e04612;  
+  --yellow: #f4d500;
+  --green: #326935;
+  --orange: #e04612;
 
-    --text-main-color: rgb(74 79 84);
+  --text-main-color: rgb(74 79 84);
 }
 
 body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 1.5;
-    color: var(--text-main-color);
-    background-color: #f9fafd;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  line-height: 1.5;
+  color: var(--text-main-color);
+  background-color: #f9fafd;
 }
 
 p {
-    margin: .8em 0;
-    text-align: justify;
+  margin: 0.8em 0;
+  text-align: justify;
 }
 
 ul {
-    padding-left: 1.5em;
+  padding-left: 1.5em;
 }
 
 ul > li {
-    /* padding-left: 1em; */
-    list-style: circle;
+  /* padding-left: 1em; */
+  list-style: circle;
 }
 
 h2 {
-    font-family: 'AmaticSC';
-    font-size: 2em;
-    /* font-weight: bold; */
-    margin: .5em 0;
-    color: var(--green);
-    line-height: 1;
+  font-family: "AmaticSC";
+  font-size: 2em;
+  /* font-weight: bold; */
+  margin: 0.5em 0;
+  color: var(--green);
+  line-height: 1;
 }
 
 .Head {
-    height: 100vh;
-    margin-bottom: 3em;
+  height: 100vh;
+  margin-bottom: 3em;
 
-    display: flex;
+  display: flex;
 
-    background-color: var(--yellow);
-    border-bottom: 1px solid #d1d6de;
-
-    
+  background-color: var(--yellow);
+  border-bottom: 1px solid #d1d6de;
 }
 
 .HeadLogo {
-    width: 30em;
-    max-width: 80%;
-    height: auto;
- 
-    display: block;
-    margin: auto;
+  width: 30em;
+  max-width: 80%;
+  height: auto;
+
+  display: block;
+  margin: auto;
 }
 
 .what {
-    width: 800px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 800px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 
-    border-bottom: 1px solid #d1d6de;
-    margin: 1em auto;
+  border-bottom: 1px solid #d1d6de;
+  margin: 1em auto;
 }
