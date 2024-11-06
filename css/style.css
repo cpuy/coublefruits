@@ -65,7 +65,7 @@ h2 {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3em;
+  margin-top: 2.5em;
 }
 
 .Head {
@@ -109,4 +109,8 @@ h2 {
 .AdhesionBtn:hover,
 .AdhesionBtn:focus {
   opacity: 0.75;
+}
+
+.Footer {
+    margin-top: 3rem;
 }
