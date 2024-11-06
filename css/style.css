@@ -20,6 +20,23 @@ body {
   background-color: #f9fafd;
 }
 
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 p {
   margin: 0.8em 0;
   text-align: justify;
@@ -43,9 +60,16 @@ h2 {
   line-height: 1;
 }
 
+.section {
+  width: 800px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
 .Head {
   height: 100vh;
-  margin-bottom: 3em;
 
   display: flex;
 
@@ -62,12 +86,27 @@ h2 {
   margin: auto;
 }
 
-.what {
-  width: 800px;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+.AdhesionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-  border-bottom: 1px solid #d1d6de;
-  margin: 1em auto;
+  box-sizing: border-box;
+
+  background-color: var(--yellow);
+  border-radius: 4px;
+  border-style: none;
+
+  cursor: pointer;
+
+  width: 100%;
+  min-height: 3em;
+  padding: 9px 20px 8px;
+
+  color: var(--green);
+}
+
+.AdhesionBtn:hover,
+.AdhesionBtn:focus {
+  opacity: 0.75;
 }
