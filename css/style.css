@@ -9,6 +9,8 @@ html {
   --orange: #e04612;
 
   --text-main-color: rgb(74 79 84);
+
+  --max-width: 800px;
 }
 
 body {
@@ -58,6 +60,23 @@ h2 {
   margin: 0.5em 0;
   color: var(--green);
   line-height: 1;
+}
+
+.navBar {
+  width: 100%;
+  background-color: var(--yellow);
+  position: sticky;
+  top: 0;
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.navButtonCtn {
+  max-width: var(--max-width);
+  width: var(--max-width);
+  margin: auto;
+  padding: 0 1em;
 }
 
 /* Sidenav menu */
@@ -111,7 +130,7 @@ h2 {
   display: block;
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: var(--text-main-color);
   margin: 6px 0;
 }
 
